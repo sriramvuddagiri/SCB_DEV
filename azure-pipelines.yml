@@ -22,6 +22,5 @@ steps:
     goals: 'package'
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '**/*.war'
-    Contents: '**'
+    Contents: '**/*.war'
     TargetFolder: '$(build.artifactstagingdirectory)'
